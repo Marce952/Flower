@@ -1,0 +1,92 @@
+body {
+    background-image: linear-gradient(to right, #f03232 0%, #fee140 100%);
+    font-family: Roboto;
+}
+
+section {
+    display: flex;
+    margin: auto;
+    width: 600px;
+    height: 430px;
+}
+
+section img {
+    width: 0px;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: .8;
+    transition: .5s ease;
+}
+
+section img:hover {
+    cursor: crosshair;
+    width: 300px;
+    opacity: 1;
+    filter: contrast(120%);
+}
+
+#texto-img1 {
+    display: none;
+    background-image: linear-gradient(to top, #ffffff 0%, transparent 100%);
+    position: absolute;
+    color: #000;
+    border-bottom: 1px #fff solid;
+}
+
+#imagen1:hover+#texto-img1 {
+    display: block;
+}
+
+#texto-img2 {
+    display: none;
+    background-image: linear-gradient(to top, #ffffff 0%, transparent 100%);
+    position: absolute;
+    color: #000;
+    border-bottom: 1px #fff solid;
+}
+
+#imagen2:hover+#texto-img2 {
+    display: block;
+}
+
+#texto-img3 {
+    display: none;
+    background-image: linear-gradient(to top, #ffffff 0%, transparent 100%);
+    position: absolute;
+    color: #000;
+    border-bottom: 1px #fff solid;
+}
+
+#imagen3:hover+#texto-img3 {
+    display: block;
+}
+
+#texto-img4 {
+    display: none;
+    background-image: linear-gradient(to top, #ffffff 0%, transparent 100%);
+    position: absolute;
+    color: #000;
+    border-bottom: 1px #fff solid;
+}
+
+#imagen4:hover+#texto-img4 {
+    display: block;
+}
+
+#texto-img5 {
+    display: none;
+    background-image: linear-gradient(to top, #ffffff 0%, transparent 100%);
+    position: absolute;
+    color: #000;
+    border-bottom: 1px #fff solid;
+}
+
+#imagen5:hover+#texto-img5 {
+    display: block;
+}
+
+div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
